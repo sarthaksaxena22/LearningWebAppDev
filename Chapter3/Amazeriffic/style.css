@@ -8,7 +8,7 @@ header, main, footer {
 
 header .container, main .container, footer .container {
   max-width: 855px;
-  margin: auto;
+   margin-bottom: 40px;
 }
 
 header {
@@ -19,8 +19,18 @@ header {
 header h1 {
   float: left;
   width: 570px;
+  font-size: 25px;
+  font-weight: bold;
 }
-
+main h3
+{
+   font-size: 15px;
+  font-weight: bold;
+}
+main p
+{
+  padding: 10px 10px 10px 10px;
+}
 header nav {
   float: right;
   width: 285px;
@@ -45,6 +55,7 @@ footer .left {
   float: left;
   width: 570px;
 }
+
 
 footer .sitemap {
   float: right;
